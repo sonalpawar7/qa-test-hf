@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample suite" duration-ms="138" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+    <groups>
+    </groups>
+    <test name="R2_Regression Suite" duration-ms="138" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+      <class name="com.hf.challenge.WebTest_new">
+        <test-method status="FAIL" signature="init()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="init" is-config="true" duration-ms="97" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:118)
+at org.openqa.selenium.support.events.EventFiringWebDriver.<init>(EventFiringWebDriver.java:92)
+at com.hf.utils.BrowserInitializer.setUpEventDriver(BrowserInitializer.java:50)
+at com.hf.utils.BrowserInitializer.initDriver(BrowserInitializer.java:126)
+at com.hf.challenge.WebTest_new.init(WebTest_new.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="openBrowser" is-config="true" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="signInTest()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="signInTest" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:118)
+at org.openqa.selenium.support.events.EventFiringWebDriver.<init>(EventFiringWebDriver.java:92)
+at com.hf.utils.BrowserInitializer.setUpEventDriver(BrowserInitializer.java:50)
+at com.hf.utils.BrowserInitializer.initDriver(BrowserInitializer.java:126)
+at com.hf.challenge.WebTest_new.init(WebTest_new.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="SKIP" signature="clearcahe()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="clearcahe" is-config="true" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearcahe -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="openBrowser" is-config="true" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="loginTest()[pri:1, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="loginTest" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:118)
+at org.openqa.selenium.support.events.EventFiringWebDriver.<init>(EventFiringWebDriver.java:92)
+at com.hf.utils.BrowserInitializer.setUpEventDriver(BrowserInitializer.java:50)
+at com.hf.utils.BrowserInitializer.initDriver(BrowserInitializer.java:126)
+at com.hf.challenge.WebTest_new.init(WebTest_new.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="clearcahe()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="clearcahe" is-config="true" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearcahe -->
+        <test-method status="SKIP" signature="checkout()[pri:2, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="checkout" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:118)
+at org.openqa.selenium.support.events.EventFiringWebDriver.<init>(EventFiringWebDriver.java:92)
+at com.hf.utils.BrowserInitializer.setUpEventDriver(BrowserInitializer.java:50)
+at com.hf.utils.BrowserInitializer.initDriver(BrowserInitializer.java:126)
+at com.hf.challenge.WebTest_new.init(WebTest_new.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="openBrowser" is-config="true" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="clearcahe()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="clearcahe" is-config="true" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearcahe -->
+        <test-method status="SKIP" signature="quitBrowser()[pri:0, instance:com.hf.challenge.WebTest_new@5ae63ade]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2018-07-09T15:27:46Z" finished-at="2018-07-09T15:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.hf.challenge.WebTest_new -->
+    </test> <!-- R2_Regression Suite -->
+  </suite> <!-- Sample suite -->
+</testng-results>

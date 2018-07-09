@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Sample suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.hf.utils.TestNgListeners"/>
+  </listeners>
+  <test thread-count="2" name="R2_Regression Suite(failed)" parallel="classes">
+    <classes>
+      <class name="com.hf.challenge.WebTest_new">
+        <methods>
+          <include name="signInTest"/>
+          <include name="clearcahe"/>
+          <include name="quitBrowser"/>
+          <include name="loginTest"/>
+          <include name="checkout"/>
+          <include name="openBrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.hf.challenge.WebTest_new -->
+    </classes>
+  </test> <!-- R2_Regression Suite(failed) -->
+</suite> <!-- Failed suite [Sample suite] -->
